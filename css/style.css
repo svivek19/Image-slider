@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    max-width: 100%;
+    height: 100vh;
+
+}
+
+.img-container {
+    background: url(/images/1.jpeg) center/cover no-repeat;
+    width: 60%;
+    height: 60%;
+    margin: 5rem auto;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #000;
+    position: relative;
+}
+
+.btn {
+    color: white;
+    background-color: darkgreen;
+    border: 1px solid #360153;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn-left {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-right {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+/* Tablet - view */
+/* @media screen and (max-width:768px) {
+    body {
+        background-color: gray;
+        width: 90%;
+        height: 100vh;
+        margin: 15px;
+    }
+
+    .img-container {
+        background: url(/images/1.jpeg) center/cover no-repeat;
+        background-color: black;
+        width: 100%;
+        height: 60%;
+        margin: 2rem auto;
+        border-radius: 20px;
+        box-shadow: 0 0 25px #000;
+        position: relative;
+    }
+}
+ */
+
+/* Mobile - View  */
+@media screen and (max-width:375px) {
+    body {
+        background-color: gray;
+        width: 90%;
+        height: 100vh;
+        margin: 15px;
+    }
+
+    .img-container {
+        background: url(/images/1.jpeg) center/cover no-repeat;
+        background-color: black;
+        width: 100%;
+        height: 60%;
+        margin: 2rem auto;
+        border-radius: 20px;
+        box-shadow: 0 0 25px #000;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:425px) {
+    body {
+        background-color: gray;
+        width: 90%;
+        height: 100vh;
+        margin: 15px;
+    }
+
+    .img-container {
+        background: url(/images/1.jpeg) center/cover no-repeat;
+        background-color: black;
+        width: 100%;
+        height: 60%;
+        margin: 2rem auto;
+        border-radius: 20px;
+        box-shadow: 0 0 25px #000;
+        position: relative;
+    }
+}
